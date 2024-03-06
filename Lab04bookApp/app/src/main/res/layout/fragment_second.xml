@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Chapter 2"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <FrameLayout
+        android:layout_width="422dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="410dp"
+            android:layout_height="213dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#FFCD00"
+            android:padding="5dp"
+            android:text="Curabitur posuere metus dui, eget vestibulum quam ultricies faucibus. Morbi ac metus malesuada, semper urna vel, tincidunt mauris. Ut vel ex velit. Suspendisse quis pellentesque dui, ac egestas lectus. Sed rutrum neque imperdiet commodo dignissim. Nullam posuere porttitor massa, nec bibendum diam eleifend non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, ex id sagittis sollicitudin, lectus sem pellentesque massa, a vestibulum augue purus sed justo.
+
+Vestibulum pharetra tellus ac arcu dignissim molestie at et diam. Vestibulum quis felis vehicula, tempor massa vel, consequat lectus. Etiam tellus nulla, volutpat vel lobortis a, fermentum nec turpis. Maecenas consequat aliquet cursus. Duis eget arcu ut lorem dictum tincidunt non a quam. Nunc molestie vel libero vitae imperdiet. Curabitur nec lectus ac felis tempor finibus nec et justo. Nullam id finibus diam. Ut ac nulla turpis. Nulla sit amet odio in lorem sodales fermentum nec id eros. Sed eu posuere lectus, vulputate laoreet nulla. Aliquam pretium augue eget placerat blandit. Ut venenatis mauris sodales scelerisque pulvinar. Donec lobortis mauris vel pharetra mollis. Vivamus blandit tortor sed scelerisque blandit." />
+    </FrameLayout>
+
+</FrameLayout>

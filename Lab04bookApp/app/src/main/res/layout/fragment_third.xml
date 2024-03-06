@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Chapter 3"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="410dp"
+            android:layout_height="213dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:padding="5dp"
+            android:textColor="#FFCD00"
+            android:text="Sed in scelerisque lorem, ac scelerisque tellus. Donec venenatis facilisis dapibus. Duis gravida imperdiet consequat. Integer dui nibh, egestas sit amet consequat vitae, sagittis sed felis. Proin non lectus sit amet eros efficitur rutrum sed vel ante. Ut mi purus, consequat non metus at, dignissim faucibus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi non consectetur mi. Ut mauris sem, laoreet non diam vel, fermentum pulvinar ligula.
+
+Quisque sapien dui, faucibus bibendum nisi sit amet, iaculis sodales metus. Fusce fermentum sem vitae enim faucibus, eget condimentum mi finibus. Proin sed tortor elit. Phasellus euismod ornare elementum. Donec vestibulum nibh sit amet ligula lobortis feugiat. Quisque vestibulum magna lorem, eu ultricies urna ullamcorper in. Maecenas maximus dolor et venenatis pulvinar.
+
+Curabitur posuere metus dui, eget vestibulum quam ultricies faucibus. Morbi ac metus malesuada, semper urna vel, tincidunt mauris. Ut vel ex velit. Suspendisse quis pellentesque dui, ac egestas lectus. Sed rutrum neque imperdiet commodo dignissim. Nullam posuere porttitor massa, nec bibendum diam eleifend non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, ex id sagittis sollicitudin, lectus sem pellentesque massa, a vestibulum augue purus sed justo." />
+    </FrameLayout>
+
+</FrameLayout>
